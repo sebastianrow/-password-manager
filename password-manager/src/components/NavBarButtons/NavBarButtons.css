@@ -1,0 +1,19 @@
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.link {
+  background-color: transparent;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 1rem;
+  text-decoration: underline;
+  border: none;
+}
+
+.link:hover {
+  cursor: pointer;
+}
