@@ -5,7 +5,10 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="main-container">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+      {/* <div className="main-container">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsam
           quas voluptatum veritatis voluptates doloremque facilis mollitia
@@ -15,7 +18,7 @@ function App() {
           fugiat corporis consectetur, molestiae dolor quisquam cum impedit
           eligendi veritatis sunt obcaecati excepturi odit? Facere, corrupti.
         </p>
-      </div>
+      </div> */}
     </>
   );
 }
