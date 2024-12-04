@@ -1,0 +1,19 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+span {
+  text-align: center;
+}
+
+.icon-self {
+  font-size: 70px;
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}

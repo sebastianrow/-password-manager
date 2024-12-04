@@ -12,6 +12,9 @@ function NavBar() {
       </div>
 
       <NavBarButtons />
+      <span className="material-symbols-outlined" style={{ color: "white" }}>
+        search
+      </span>
     </div>
   );
 }

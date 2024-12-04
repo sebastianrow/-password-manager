@@ -1,0 +1,40 @@
+.header-description {
+  display: flex;
+  height: 400px;
+  margin-top: 0;
+}
+
+.description-info {
+  width: 50%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.description-info p {
+  font-weight: 50;
+  margin-bottom: 40px;
+}
+
+.description-info button {
+  align-self: center;
+  color: white;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+
+.description-info button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}

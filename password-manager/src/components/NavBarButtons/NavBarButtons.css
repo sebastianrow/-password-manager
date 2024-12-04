@@ -7,7 +7,7 @@
 
 .link {
   background-color: transparent;
-  color: var(--text-color);
+  color: white;
   font-weight: 900;
   font-size: 1rem;
   text-decoration: underline;
@@ -16,4 +16,5 @@
 
 .link:hover {
   cursor: pointer;
+  color: var(--primary-color);
 }
