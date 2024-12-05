@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--background-color);
+  color: --text-color;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  width: 12%;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  color: var(--text-color);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.name-logo:hover {
+  cursor: pointer;
+}
